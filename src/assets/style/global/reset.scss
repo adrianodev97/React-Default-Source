@@ -3,13 +3,13 @@
 	padding: 0;
 	outline: 0;
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 
 body {
 	font-size: 16px;
 	line-height: 1.3;
-    list-style-type: none;
-	font-family: sans-serif;
+  list-style-type: none;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
@@ -25,4 +25,9 @@ a, button {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+ul, ol {
+	list-style-type: none;
+	padding: 0;
 }

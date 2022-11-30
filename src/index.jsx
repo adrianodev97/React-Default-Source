@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import "./assets/style/style.scss"
-import "../node_modules/bootstrap/scss/bootstrap.scss";
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
